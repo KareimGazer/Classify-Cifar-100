@@ -8,8 +8,8 @@ It's required to classify 100 classes of objects found in images of the CIFAR-10
 
 ## Solution
 In this paper we propose to solutions to the classification problem:
-- Multi-Class SVM: in the form of a shallow neural network with the number of hidden units (in the hidden layer) equal to the number of classes and using the *catagorical_hinge_loss* as the loss function of the model. The model acheives relatively poor performance which we try to enhance in the next proposed model.
-- Deep Neurak Network: we introduce a deep neural network withseveral convoluntional layers  to extract and capture the many features of the images, which resulted in a better performance.
+- **Multi-Class SVM:** in the form of a shallow neural network with the number of hidden units (in the hidden layer) equal to the number of classes and using the *catagorical_hinge_loss* as the loss function of the model. The model acheives relatively poor performance which we try to enhance in the next proposed model.
+- **Deep Neurak Network:** we introduce a deep neural network withseveral convoluntional layers  to extract and capture the many features of the images, which resulted in a better performance.
 
 ### Programming Tools and APIs
 
