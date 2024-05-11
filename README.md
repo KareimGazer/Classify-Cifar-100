@@ -1,8 +1,8 @@
 # Classify-Cifar-100
 
 ## Abstract
-Image classification is the objective of identifying whether the image belongs to a particular predefined class or not. It's of vital importance in this era. latest advances in that field enabled self driving cars to be a reality, doctors to detect deseases, and people with disabilities to have a better life. Image classification can be extended to Image detection - detect whether something exists in an image - , and image recognition - which is the ability of software to identify objects, places, people, writing and actions in images. In this paper we try to tackle the challange by providing two solutions to classify 100 classes in a large data set. we explain our methods, show the results, and discuss how we acheived them.
-
+Image classification is the objective of identifying whether the image belongs to a particular predefined class or not. It's of vital importance in this era. latest advances in that field enabled self driving cars to be a reality, doctors to detect diseases, and people with disabilities to have a better life. Image classification can be extended to Image detection - detect whether something exists in an image - , and image recognition - which is the ability of software to identify objects, places, people, writing and actions in images.
+In this paper we tackle the challenge of classifying the 100 classes of the CIFAR-100 large dataset by providing two solutions (namely, MCSVM and Deep Conv Net) and explain our methods, show the results, and discuss how we achieved them.
 ## Problem Definition
 It's required to classify 100 classes of objects found in images of the CIFAR-100 dataset, which contains 50000 training example and 10000 test samples. Images are of size 32x32x3 RGB colored 3-channels images.
 
